@@ -44,3 +44,24 @@ h1 {
     display: flex;
     margin-bottom: 120px;
 }
+
+#food-a-family {
+    background-color: rgb(227, 155, 143);
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 60px;
+}
+
+#shelter-a-family {
+    background-color: cornsilk;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 60px;
+}
+
+#Education-a-family {
+    background-color: aquamarine;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 60px;
+}
