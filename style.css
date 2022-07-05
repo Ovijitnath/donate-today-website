@@ -1,0 +1,46 @@
+body {
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-button {
+
+    text-decoration: none;
+    background-color: rgb(217, 118, 100);
+    color: azure;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-image: -moz-linear-gradient(orange, tomato);
+    font-weight: 700;
+
+}
+
+.top-banner {
+    background-image: url(images/donation13.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: beige;
+
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 120px;
+}
