@@ -1,3 +1,8 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
 body {
     font-family: 'Lobster', cursive;
     font-family: 'Poppins', sans-serif;
@@ -7,8 +12,22 @@ h1 {
     font-size: 60px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .center-align {
     text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.margin-bottom {
+    margin-bottom: 100px;
+}
+
+.half-width {
+    width: 50%;
 }
 
 .center-button {
@@ -32,16 +51,63 @@ h1 {
 .top-banner {
     background-image: url(images/donation13.jpg);
     width: 100%;
-    height: 100%;
+    height: 80vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: beige;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+
 
 }
 
+.amount-unselect {
+    height: 90px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgb(204, 223, 240);
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.amount-select {
+    height: 90px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgb(225, 153, 169);
+    padding-left: 35px;
+    padding-right: 35px;
+    border: 3px solid rgb(200, 152, 144)
+}
+
+/*
+.amount-500 {
+    background-color: aliceblue;
+    border-left: 15px;
+    border-right: 15px;
+    border-top: 20px;
+    border-bottom: 30px;
+    margin: 20px;
+}
+
+.amount-1000 {
+    background-color: aliceblue;
+    border-left: 15px;
+    border-right: 15px;
+    border-top: 40px;
+    border-bottom: 30px;
+    margin: 20px;
+}*/
+
 .flexible-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 120px;
 }
 
@@ -61,7 +127,12 @@ h1 {
 
 #Education-a-family {
     background-color: aquamarine;
-    padding-left: 10px;
-    padding-right: 5px;
-    padding-bottom: 60px;
+
+    border: 1px solid rgb(245, 242, 242);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+    margin: auto;
 }
