@@ -16,6 +16,10 @@ h2 {
     font-size: 40px;
 }
 
+p {
+    font-size: 17px;
+}
+
 .center-align {
     text-align: center;
     justify-content: center;
@@ -30,6 +34,14 @@ h2 {
     width: 50%;
 }
 
+.flexible-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+
+}
+
 .center-button {
     display: flex;
     justify-content: center;
@@ -40,10 +52,11 @@ h2 {
 
     text-decoration: none;
     background-color: rgb(217, 118, 100);
-    color: azure;
+    color: rgb(243, 247, 247);
     padding: 10px 40px;
     border-radius: 5px;
     background-image: -moz-linear-gradient(orange, tomato);
+    background-repeat: no-repeat;
     font-weight: 700;
 
 }
@@ -51,19 +64,15 @@ h2 {
 .top-banner {
     background-image: url(images/donation13.jpg);
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: beige;
+    color: whitesmoke;
     justify-content: center;
     align-items: center;
-    padding: 10%;
-    padding-left: 5%;
-    padding-right: 5%;
-
-
-
+    padding-right: 10%;
+    padding-top: 10%;
 }
 
 .amount-unselect {
@@ -85,54 +94,58 @@ h2 {
     border: 3px solid rgb(200, 152, 144)
 }
 
-/*
-.amount-500 {
-    background-color: aliceblue;
-    border-left: 15px;
-    border-right: 15px;
-    border-top: 20px;
-    border-bottom: 30px;
-    margin: 20px;
-}
-
-.amount-1000 {
-    background-color: aliceblue;
-    border-left: 15px;
-    border-right: 15px;
-    border-top: 40px;
-    border-bottom: 30px;
-    margin: 20px;
-}*/
-
-.flexible-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 120px;
-}
 
 #food-a-family {
-    background-color: rgb(227, 155, 143);
-    padding-left: 10px;
-    padding-right: 5px;
-    padding-bottom: 60px;
+    background-color: aquamarine;
 }
 
 #shelter-a-family {
     background-color: cornsilk;
-    padding-left: 10px;
-    padding-right: 5px;
-    padding-bottom: 60px;
+
 }
 
 #Education-a-family {
-    background-color: aquamarine;
+    background-color: bisque;
+}
 
-    border: 1px solid rgb(245, 242, 242);
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
-    background-color: lightblue;
-    margin: auto;
+.donation-plan {
+    height: 400px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 15px;
+    gap: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.features {
+    gap: 10%;
+    margin: 0%;
+    padding-top: 10%;
+    justify-content: center;
+}
+
+/*.email-box {
+    position: absolute;
+    top: 410%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+}*/
+
+footer {
+    background-color: black;
+    color: wheat;
+}
+
+footer h3 {
+    color: crimson;
 }
